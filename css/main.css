@@ -918,3 +918,24 @@ form {
 .form-page form .btn-main {
 	margin-top: 0;
 }
+.modal-block {
+	display: none;
+	padding: 0;
+	background: transparent;
+}
+.modal-block .form-page {
+	width: 446px;
+	padding-top: 40px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.fancybox-slide--html .modal-block .fancybox-close-small {
+	color: #fff;
+	opacity: 1;
+}
+.slider-nav-image:not(.slick-initialized) > *:not(:first-child) {
+	display: none;
+}
+.modal-block .form-page__title {
+	text-transform: uppercase;
+}

@@ -59,11 +59,34 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
+		asNavFor: '.slider-nav-image',
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i><div/>',
 	});
+
+	$('.slider-nav-image').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		asNavFor: '.slider-images',
+		fade: true,
+		swipe: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					adaptiveHeight: true,
+				}
+			}
+			]
+		});
 
 	$('.slider-projects').slick({
 		arrows: true,
