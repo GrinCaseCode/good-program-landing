@@ -17,8 +17,8 @@
 	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body> 
 
@@ -92,7 +92,7 @@
 							<li>Контроль и мониторинг</li>
 							<li>Завершение и оценка проектов</li>
 						</ul>
-						<a href="#sect-4" class="btn-main scroll-link">получить расчет</a>
+						<a href="#modal-callback" class="btn-main fancybox">получить расчет</a>
 						<div class="descr-small">Присоединяйтесь к лидерам и приручите хаос с «Гуд Проектное Управление»</div>
 					</div>
 				</div>
@@ -124,14 +124,40 @@
 							</div>
 						</div>
 						<div class="col-lg-3">
-							<div class="chart-gantt__item">
-								<p>Визуальное представление графика работ, построенное согласно плану проекта. На ней отражены задачи и последовательность их выполнения согласно сроку</p>
-							</div>
-							<div class="chart-gantt__item">
-								<p>Информация о проекте, ответственных, ключевых датах и зависимых и связанных работ</p>
-							</div>
-							<div class="chart-gantt__item">
-								<p>Использование подходящей палитры в соответствии со стандартами компании и для удобного визуального восприятия</p>
+							<div class="slider-nav-image">
+								<div>
+									<div class="chart-gantt__item">
+										<p>Визуальное представление графика работ, построенное согласно плану проекта. На ней отражены задачи и последовательность их выполнения согласно сроку</p>
+									</div>
+									<div class="chart-gantt__item">
+										<p>Информация о проекте, ответственных, ключевых датах и зависимых и связанных работ</p>
+									</div>
+									<div class="chart-gantt__item">
+										<p>Использование подходящей палитры в соответствии со стандартами компании и для удобного визуального восприятия</p>
+									</div>
+								</div>
+								<div>
+									<div class="chart-gantt__item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+									<div class="chart-gantt__item">
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+									</div>
+									<div class="chart-gantt__item">
+										<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos</p>
+									</div>
+								</div>
+								<div>
+									<div class="chart-gantt__item">
+										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+									</div>
+									<div class="chart-gantt__item">
+										<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,</p>
+									</div>
+									<div class="chart-gantt__item">
+										<p>which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with </p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -261,6 +287,9 @@
 									</div>
 									<div class="item-form">
 										<input type="text" placeholder="Количество пользователей" required="required">
+									</div>
+									<div class="item-form">
+										<input type="text" placeholder="Компания" required="required">
 									</div>
 									<div class="item-form">
 										<input type="tel" placeholder="Телефон" class="input-phone" inputmode="numeric" required="required">
@@ -456,6 +485,37 @@
 		
 	</div>
 
+	<div id="modal-callback" class="modal-block">
+		<div class="form-page">
+			<div class="form-page__title">Получить расчет</div>
+			<div class="form-page__descr">Оставьте заявку и наш специалист свяжется с вами в течение 15 минут</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Количество пользователей" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Компания" required="required">
+				</div>
+				<div class="item-form">
+					<input type="tel" placeholder="Телефон" class="input-phone" inputmode="numeric" required="required">
+				</div>
+				<div class="item-form">
+					<input type="email" placeholder="E-mail" required="required">
+				</div>
+				<input type="submit" value="заказать" class="btn-main btn-main_page">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Согласие на обработку персональных данных</span>
+					</label>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -466,7 +526,7 @@
 	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
 	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 	<script src="libs/mask/jquery.maskedinput.js"></script>
-	<script src="js/common.js?ver=1.1"></script>
+	<script src="js/common.js?ver=1.2"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
