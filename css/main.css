@@ -462,7 +462,7 @@ form {
 .btn-main.btn-main_page {
 	background: #1b0b3b;
 }
-.footer__form .btn-main,
+.form-page .btn-main,
 .consultation .btn-main {
 	height: 52px;
 	margin-top: 16px;
@@ -914,4 +914,7 @@ form {
 .sandwich.active .sw-footer {
 	top: 6px;
 	transform: rotate(-45deg); 
+}
+.form-page form .btn-main {
+	margin-top: 0;
 }

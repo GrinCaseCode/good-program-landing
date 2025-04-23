@@ -125,7 +125,8 @@
         font-size: 12px;
         margin-top: 13px;
     }
-    .footer__form .btn-main, .consultation .btn-main {
+    .form-page .btn-main,
+    .consultation .btn-main {
         height: 48px;
         margin-top: 9px;
         font-size: 13px;
@@ -505,7 +506,8 @@
         padding: 0px 15px;
         font-size: 12px;
     }
-    .footer__form .btn-main, .consultation .btn-main {
+    .form-page .btn-main,
+    .consultation .btn-main {
         height: 42px;
         margin-top: 7px;
         font-size: 12px;
@@ -683,7 +685,8 @@
         padding: 0px 17px;
         font-size: 14px;
     }
-    .footer__form .btn-main, .consultation .btn-main {
+    .form-page .btn-main,
+    .consultation .btn-main {
         height: 46px;
         margin-top: 9px;
         font-size: 14px;
