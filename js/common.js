@@ -44,7 +44,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	});
 	
-	$(".menu-overlay").click(function() {
+	$(".menu-overlay, .menu-mobile .menu a").click(function() {
 		$(".menu-mobile").slideUp(200);
 		$(".menu-overlay").fadeOut(200);
 		$(".sandwich").removeClass("active");
