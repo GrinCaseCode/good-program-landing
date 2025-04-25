@@ -223,6 +223,16 @@
     .modal-block .form-page {
         width: 415px;
     }
+    .neuroassistant__content {
+        padding: 33px 38px;
+        padding-bottom: 20px;
+    }
+    .neuroassistant__info {
+        padding: 43px 36px;
+    }
+    .neuroassistant {
+        padding-bottom: 60px;
+    }
 }
 
 @media only screen and (max-width : 1580px) {
@@ -421,6 +431,13 @@
     .modal-block .form-page {
         width: 385px;
     }
+    .neuroassistant__content {
+        padding: 28px 32px;
+        padding-bottom: 20px;
+    }
+    .neuroassistant__info {
+        padding: 40px 30px;
+    }
 }
 
 @media only screen and (max-width : 1350px) {
@@ -591,6 +608,9 @@
     }
     .modal-block .form-page {
         width: 329px;
+    }
+    .neuroassistant__info {
+        padding: 30px 23px;
     }
 }
 
@@ -842,6 +862,23 @@
     }
     .modal-block .form-page {
         width: 320px;
+    }
+    .neuroassistant__content {
+        padding: 20px 15px;
+        border-radius: 16px;
+    }
+    .neuroassistant__info {
+        padding: 20px 15px;
+        border-radius: 16px;
+        margin: 0;
+        margin-bottom: 20px;
+        min-height: initial;
+    }
+    .neuroassistant__image {
+        margin: 0;
+    }
+    .neuroassistant {
+        padding-bottom: 50px;
     }
 }
 

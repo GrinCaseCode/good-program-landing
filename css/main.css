@@ -409,7 +409,7 @@ form {
 }
 
 .consultation {
-	padding-bottom: 60px;
+	padding-bottom: 79px;
 }
 .consultation__wrapper {
 	padding: 78px 56px;
@@ -938,4 +938,30 @@ form {
 }
 .modal-block .form-page__title {
 	text-transform: uppercase;
+}
+
+.neuroassistant {
+	padding-bottom: 80px;
+}
+.neuroassistant__content {
+	padding: 38px 47px;
+	padding-bottom: 20px;
+	border-radius: 24px;
+	background: #f9f9f9;
+}
+.neuroassistant__image img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.neuroassistant__info {
+	padding: 52px 45px;
+	margin-right: 37px;
+	min-height: 98%;
+	border-radius: 24px;
+	background: #7856ff;
+	color: #fff;
+}
+.neuroassistant__image {
+	margin-left: -35px;
 }
